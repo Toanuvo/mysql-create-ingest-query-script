@@ -1,5 +1,8 @@
 # mysql create/ingest/query script
- A python script that creates a mysql database then ingests and parses a csv into the database.
+ A python script that creates a mysql database then ingests and parses a csv into the database. 
+
+Uses: python, pandas, sqlalchemy, pymysql, and mysql.
+
 There is a function defined for each task.
 
 Parsecsvdb: Reads data from the given csv file using pandas, 
